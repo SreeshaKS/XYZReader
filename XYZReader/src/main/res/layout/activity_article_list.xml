@@ -7,7 +7,8 @@
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
-        android:background="@color/colorPrimary">
+        android:background="@color/colorPrimary"
+        android:elevation="2dp">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
@@ -46,6 +47,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clipToPadding="false"
+            android:paddingEnd="@dimen/recycler_padding"
+            android:paddingLeft="@dimen/recycler_padding"
+            android:paddingRight="@dimen/recycler_padding"
+            android:paddingStart="@dimen/recycler_padding"
+            android:paddingTop="@dimen/recycler_padding"
+            android:paddingBottom="@dimen/recycler_padding"
             android:scrollbarStyle="outsideOverlay" />
     </android.support.v4.widget.SwipeRefreshLayout>
 </android.support.design.widget.CoordinatorLayout>
