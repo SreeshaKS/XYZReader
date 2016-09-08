@@ -11,8 +11,8 @@ It also replicates a common developer task of updating and changing an app's des
 
 ## Project Requirements And Specifications
 
-*-> App uses fonts that are either the Android defaults, are complementary, and aren't otherwise distracting.
-*-> App uses CoordinatorLayout for the main activity.
+#-> App uses fonts that are either the Android defaults, are complementary, and aren't otherwise distracting.
+#-> App uses CoordinatorLayout for the main activity.
 *-> App uses the Design Support library and its provided widget types (FloatingActionButton, AppBarLayout, SnackBar, etc).
 *-> App uses CoordinatorLayout for the main activity.
 *-> App uses an AppBar and associated Toolbars.
